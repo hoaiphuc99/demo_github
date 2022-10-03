@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calistoga', cursive;
+}
+
+.clear {
+    clear: both;
+}
+
+/* header  */
+.header {
+    background-color: white;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.logo i {
+    width: 70px;
+    height: 70px;
+    line-height: 65px;
+    border-radius: 50%;
+    background-color: #002146;
+    font-size: 20px;
+    vertical-align: bottom;
+    color: #fdc800;
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+.logo p {
+    display: inline;
+    font-size: 60px;
+    color: black;
+    font-weight: 800;
+}
+
+.menu__text a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.menu {
+    margin: auto;
+    width: 80%;
+}
+
+/* carousel */
+.carousel {
+    background-image: url(./../images/2.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+/* info */
+.info__wellcome {
+    padding: 70px 0px;
+    margin: auto;
+    width: 75%;
+}
+
+.info__text {
+    float: left;
+    width: 50%;
+}
+
+.info__img {
+    float: left;
+    width: 50%;
+}
+
+.info__img img {
+    width: 100%;
+}
+
+.info__text p {
+    color: gray;
+    padding: 20px 30px 10px 0;
+}
+
+.info__text button {
+    margin-top: 30px;
+    background-color: #fdc800;
+    height: 40px;
+    width: 110px;
+
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* status */
+.status {
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+
+.status__1 {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    padding-bottom: 80px;
+}
+
+.status__2,
+.status__3,
+.status__4,
+.status__5 {
+    float: left;
+    width: 25%;
+}
+
+.status__1 h1 {
+    float: left;
+    width: 25%;
+    font-size: 40px;
+}
+
+.status__1 p {
+    padding-top: 7px;
+    float: left;
+    width: 75%;
+}
+
+/* option  */
+.box {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.option {
+    padding: 50px;
+    margin: auto;
+    width: 90%;
+}
+
+.box>div {
+    padding: 40px 70px;
+    background-color: #002146;
+    border-radius: 5px;
+    color: white;
+}
+
+.box>div p {
+    padding-top: 20px;
+}
+
+.post {
+    background-color: #f6f6f6;
+    padding: 50px 0;
+}
+
+.post .post__content {
+    margin: 50px auto;
+    width: 75%;
+}
+
+.post__late,
+.post__event {
+    float: left;
+    width: 50%;
+    padding: 20px 20px;
+}
+
+.post__left,
+.post__right {
+    background-color: white;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+
+.left__1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left__1>div:first-of-type {
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+}
+
+.left__1>div:last-of-type {
+    float: left;
+    width: 70%;
+}
+
+.button {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.button button {
+    width: 120px;
+    height: 40px;
+    background-color: #fdc800;
+}
+
+.left__1 {
+    margin-bottom: 20px;
+}
+
+.hr {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+
+}
+
+#a1 {
+    color: #939393;
+    margin-bottom: 20px;
+}
+
+#a2 {
+    color: #585858;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.card {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.card__top {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__bottom {
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.right__1 {
+    float: left;
+    width: 70%;
+}
+
+#a3>p:first-of-type {
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+}
+
+#a3>div:first-of-type {
+    height: 40px;
+    float: left;
+    width: 6%;
+    border-left: 2px solid #bdbdbd;
+}
+
+#a3>p:last-of-type {
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+}
